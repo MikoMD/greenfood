@@ -13,6 +13,7 @@
 aside {
 	float: left;
 	width: 24%;
+    position: 
 }
 
 .heading {
@@ -68,7 +69,6 @@ aside {
 	float: left;
 	width: 454px;
 	height: 300px;
-	/*border: 3px solid #161A1E;*/
 	box-sizing: border-box;
 	overflow: hidden;
 }
@@ -138,13 +138,13 @@ aside {
 	color: #3e3e3e;
 }
 
-/* Реклама на джаве номер 2*/
+/* Мигающий баннер */
 
 #ad2 {
     float: left;
     width: 930px;
     height: 116px;
-    margin-bottom: 20px;
+    margin-bottom: 00px;
     margin-left: 120px;
 }
 
@@ -174,7 +174,7 @@ color: #db6e6e;
     margin-left: 45px;
 }
 
-#subscribe>iframe {
+#fb-root {
 	float: left;
     margin-left: 45px;
 }
@@ -271,11 +271,11 @@ h3 {
 	border: 2px solid #161A1E;
 }
 
-.contact_form button.sumbitr {
+.contact_form button.submitr {
 	margin: 2px 270px;
 }
 
-.contact_form button.sumbita {
+.contact_form button.submita {
 	margin: 2px 300px;
 }
 
@@ -283,4 +283,26 @@ h3 {
 	margin-left: 20px;
 	font-style: italic; 
 	color: #999c99
+}
+
+.sup1 {
+    float: left;
+    margin: 20px 360px;
+    border: 2px solid silver;
+    text-align: center;
+}
+
+.sup1 p {
+    padding: 15px;
+}
+
+.sup {
+    float: left;
+    margin: 20px 340px;
+    border: 2px solid silver;
+    text-align: center;
+}
+
+.sup p {
+    padding: 15px;
 }

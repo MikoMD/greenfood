@@ -12,7 +12,7 @@
 
         <div style="clear: both"><br></div>
 
-        <a href="../auth.php" class="btn">Войти</a>
-        <a href="../reg.php" class="btn">Регистрация</a>
+        <a href="../cabinet.php" class="btn">Мой Профиль</a>
+        <a href="../exit.php" class="btn">Выйти</a>
     </div>
 </div>

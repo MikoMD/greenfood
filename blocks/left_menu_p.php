@@ -5,9 +5,10 @@
 
         <div style="clear: both"><br></div>
 
-        <a href="../index.php">Главная</a>
-        <a href="../products.php">Товары</a>
-        <a href="../contacts.php">Контакты</a>
+        <a href="../multivarkers.php">Мультиварки</a>
+        <a href="../dishes.php">Посуда</a>
+        <a href="../clothes.php">Одежда</a>
+
       </div>
 
         <div style="clear: both"><br></div>
