@@ -1,0 +1,308 @@
+#main_block {
+	float: left;
+	width: 100%;
+}
+
+#main {
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 15%;
+}
+
+aside {
+	float: left;
+	width: 24%;
+    position: 
+}
+
+.heading {
+	float: left;
+	font-size: 1.7em;
+	font-family: 'Uni Sans Thin Italic';
+	border-bottom: 2px solid #db6e6e;
+	padding: 0px 3px;
+}
+
+.heading:first-letter {
+	color: #db6e6e;
+}
+
+#main .heading {
+    margin-left: 9.5%;
+}
+
+.heading2 {
+	float: left;
+	font-size: 1.4em;
+	font-family: 'Uni Sans Thin Italic';
+	border-bottom: 2px solid #db6e6e;
+	padding: 0px 3px;
+}
+
+.heading2:first-letter {
+	color: #db6e6e;
+}
+
+#main .heading2 {
+    margin-left: 9.5%;
+}
+
+
+
+/*Стили для нововстной колонки*/
+
+#news {
+	float: left;
+    width: 100%;
+    margin-left: 8%;
+}
+
+.dws-wrapper {
+	float: left;
+	width: 454px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.boxImg {
+	float: left;
+	width: 454px;
+	height: 300px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.boxImg img {
+	height: 300px;
+}
+
+#news>a>.btn{
+	margin-bottom: 20px;
+	float: left;
+	margin-left: 390px;
+	margin-top: 2%;
+}
+
+.container {
+  background-color: #f3f3f3;
+	width: 450px;
+	height: 300px;
+	position: absolute;
+	margin-top: -305px;
+	text-align: center;
+	opacity: 0;
+	}
+
+.text {
+	height: 60%;
+	margin: 0 15px 0 15px;
+	margin-top: 50px;
+	position: relative;
+	font-family:'Open Sans', sans-serif;
+	color: #333333;
+	transition: 0.2s;
+}
+
+.container>.btn {
+	float: left;
+	left: 30%;
+}
+
+.boxImg:hover img {
+	opacity: 0;
+}
+
+.boxImg:hover .container{
+	opacity: 1;
+	transition: .2s;
+}
+
+#news .heading {
+    float: left;
+    margin-left: 30px;
+}
+
+/* Стили для текста сверху на главной стр */
+
+.text_about {
+    float: left;
+	font-family:'Open Sans', sans-serif;
+	font-size: 1.1em;
+	background-color:#fafafa;
+	width: 933px;
+    padding: 2%;
+    margin-left: 30px;
+	border-radius: 5px;
+	border: 1px solid silver;
+	color: #3e3e3e;
+}
+
+/* Мигающий баннер */
+
+#ad2 {
+    float: left;
+    width: 930px;
+    height: 116px;
+    margin-bottom: 00px;
+    margin-left: 120px;
+}
+
+/* Виджеты (ВК, Facebook) */
+
+#subscribe {
+	float: left;
+	text-align: center;
+    margin-top: 100px;
+}
+
+#subscribe>span {
+	font-family: 'Uni Sans Thin Italic';
+	font-size: 1.4em;
+	color: #161A1E;
+	border-bottom: 2px solid #db6e6e;
+	font-weight: bold;
+    margin-left: 45px;
+}
+
+#subscribe:first-letter {
+color: #db6e6e;
+}
+
+#vk_page {
+	float: left;
+    margin-left: 45px;
+}
+
+#fb-root {
+	float: left;
+    margin-left: 45px;
+}
+
+/*Страницы регистрации и входа*/
+
+.reg {
+	float: left;
+	margin-left: 7%;
+}
+
+.contact_form ul {
+	width: 45%;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+.contact_form li {
+	padding: 20px;
+	border-bottom: 1px solid silver;
+	list-style-type: none;
+}
+
+.contact_form li:first-child, .contact_form li:last-child {
+	border-bottom: 2px solid #333;
+}
+
+.contact_form {
+	float: left;
+	width: 1700px;
+}
+
+h3 {
+	margin: 0px;
+}
+
+.required_notification {
+	color: #A5260A;
+	float: right;
+	margin: -20px 0 0 0;
+}
+
+.contact_form label {
+	width: 100px;
+	height: 20px;
+	margin-top: 2px; 
+	float: left;
+	padding: 3px; 
+}
+
+.contact_form input {
+	padding: 6px 8px;
+}
+
+
+.contact_form button {
+	background: #fff;
+	float: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 7px 25px;
+	position: relative;
+	overflow: hidden;
+	border: 2px  solid #FF7538;
+	border-radius: 8px;
+	font-family: 'Open Sans', sans-serif;
+	color: #FF7538;
+	transition: .2s ease-in-out;
+}
+
+.contact_form button:before {
+	content: '';
+	background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.7));
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: -8px;
+	left: -75px;
+	transform: skewX(-45deg);
+}
+
+.contact_form button:hover {
+	background: #FF7538;
+	color: #fff;
+}
+
+.contact_form button:hover:before {
+	left: 190px;
+  transition: .5s ease-in-out;
+}
+
+.contact_form button:active {
+	border: 2px solid #161A1E;
+}
+
+.contact_form button.submitr {
+	margin: 2px 270px;
+}
+
+.contact_form button.submita {
+	margin: 2px 300px;
+}
+
+.form_hint {
+	margin-left: 20px;
+	font-style: italic; 
+	color: #999c99
+}
+
+.sup1 {
+    float: left;
+    margin: 20px 360px;
+    border: 2px solid silver;
+    text-align: center;
+}
+
+.sup1 p {
+    padding: 15px;
+}
+
+.sup {
+    float: left;
+    margin: 20px 340px;
+    border: 2px solid silver;
+    text-align: center;
+}
+
+.sup p {
+    padding: 15px;
+}

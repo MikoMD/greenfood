@@ -1,0 +1,29 @@
+.article {
+margin: 0;
+padding: 0;
+list-style-type: none;
+display: inline-block;
+width: 300px;
+position: relative;
+overflow: hidden;
+}
+.descr {
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+height: 100%;
+color: white;
+padding-top: 80px;
+text-align: center;
+display: none;
+opacity: 0;
+transition: all.5s;
+-o-transition: all.5s;
+-webkit-transition: all.5s;
+}
+
+.article:hover.descr {
+	opacity: 1;
+	top: 0%;
+}

@@ -1,0 +1,72 @@
+@font-face {
+	font-family: "Norwester";
+	src: url("../fonts/Norwester/norwester.eot");
+	src: url("../fonts/Norwester/norwester.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Norwester/norwester.woff")format("woff"),
+	url("../fonts/Norwester/norwester.ttf")format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Violet";
+	src: url("../fonts/Violet/Violet.ttf")format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Uni Sans Heavy Italic";
+	src: url("../fonts/Uni Sans/Uni Sans Heavy Italic.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Uni Sans Heavy";
+	src: url("../fonts/Uni Sans/Uni Sans Heavy.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Uni Sans Thin Italic";
+	src: url("../fonts/Uni Sans/Uni Sans Thin Italic.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Uni Sans Thin";
+	src: url("../fonts/Uni Sans/Uni Sans Thin.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Raleway Thin Italic";
+	src: url("../fonts/Raleway/Raleway Thin Italic.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Raleway Thin";
+	src: url("../fonts/Raleway/Raleway Thin.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Raleway Light Italic";
+	src: url("../fonts/Raleway/Raleway Light Italic.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Lintel Italic";
+	src: url("../fonts/Lintel/Lintel Italic.ttf");
+	font-style: normal;
+	font-weight: normal;
+}

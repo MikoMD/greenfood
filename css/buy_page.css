@@ -1,0 +1,137 @@
+#buy_page {
+    width: 100%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 15%;
+}
+
+.chrcts {
+    float: left;
+    width: 50%;
+    margin-left: 5.5%;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.heading {
+    float: left;
+    margin-left: 5.5%;
+}
+
+.chrcts > .heading2 {
+    float: left;
+    font-size: 1.4em;
+}
+
+.chrcts > p {
+    font-size: 0.95em;
+}
+
+.fotos {
+    float: left;
+    width:  50%;
+    height: 250px;
+    margin-left: 5.5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.fotos img {
+    float: left;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.buy {
+    width: 25%;
+    float: left;
+    margin-left: 20px;
+    background-color: #DCDCDC;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.buy > .block_one {
+    font-family: "Uni Sans Heavy", sans-serif;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid silver;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.buy > .block_one > span {
+    font-family: "Uni Sans Thin", sans-serif;
+}
+
+.buy > .block_two {
+    color: black;
+    float: left;
+    width: 45%;
+    padding: 2.5% 1.5%;
+    text-align: center;
+    background: #909090;
+}
+
+.buy > .block_two:hover {
+    background: #3d3d3d;
+    transition: all .25s ease-out;
+    color: white;
+    cursor: pointer;
+}
+
+.buy > .block_two:active {
+    background: #FF7538;
+    color: black;
+    transition: all .1s ease-out;
+}
+
+.buy > .block_three {
+    color: black;
+    float: left;
+    width: 45%;
+    padding: 2.5% 1.5%;
+    margin-left: 4%;
+    text-align: center;
+    background: #909090;
+}
+
+.buy > .block_three:hover {
+    background: #3d3d3d;
+    transition: all .25s ease-out;
+    color: white;
+    cursor: pointer;
+}
+
+.buy > .block_three:active {
+    background: #FF7538;
+    color: black;
+    transition: all .1s ease-out;
+}
+
+.all_chr {
+    float: left;
+    width: 50%;
+    margin-left: 5.5%;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.all_chr > table {
+    float: left;
+    width: 95%;
+    margin-left: 25px;
+}
+
+.all_chr  th {
+    font-weight: 500;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid silver;
+    vertical-align: top;
+}

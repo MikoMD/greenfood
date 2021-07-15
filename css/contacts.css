@@ -1,0 +1,25 @@
+.block_cont {
+    float: left;
+	background-color: #fafafa;
+	padding: 2%;
+	margin-left: 4.5%;
+	border-radius: 5px;
+	border: 1px solid silver;
+	font-size: 1.1em;
+	color: #3e3e3e;
+
+}
+
+#map {
+    float: left;
+    width: 650px;
+    height: 450px;
+}
+
+#cont_text {
+    float: left;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left: 30px;
+}

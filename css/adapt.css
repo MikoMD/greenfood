@@ -1,0 +1,245 @@
+/* Сюда адаптивность */
+
+@media (min-width: 1920px) {
+
+	#logo {
+		float: left;
+		width: 25%;
+	}
+
+	#menu {
+		float: left;
+		width: 27%;
+	}
+
+	#search {
+		float: left;
+        width: 30%;
+        padding: 0 5% 0 0;
+	}
+
+    #reg_auth {
+        float: left;
+        width: 17%;
+    }
+}
+
+@media (max-width: 1888px) {
+
+	#logo {
+		float: left;
+		width: 25%;
+	}
+
+	#menu {
+		float: left;
+		width: 27%;
+	}
+
+	#search {
+		float: left;
+        width: 27%;
+        margin-right: 3%;
+	}
+
+    #reg_auth {
+        float: left;
+        width: 18%;
+    }
+    
+    #subscribe>span {
+        margin-left: 15px;
+    }
+    
+    #vk_page {
+	   float: left;
+       margin-left: 15px;
+    }
+
+#subscribe>iframe {
+        float: left;
+        margin-left: 15px;
+    }
+    
+    
+    #news {
+	float: left;
+    width: 100%;
+    margin-left: 6%;
+    }
+    
+}
+
+
+
+@media (max-width: 1800px) {
+
+	#logo {
+		float: left;
+		width: 25%;
+	}
+
+	#menu {
+		float: left;
+		width: 27%;
+	}
+
+	#search {
+		float: left;
+        width: 25%;
+        padding: 0 0 0 0;
+        margin-right: 3.1%;
+	}
+
+    #reg_auth {
+        float: left;
+        width: 18%; 
+    }
+    
+    #news {
+	float: left;
+    width: 100%;
+    margin-left: 5%;
+    }
+
+    #subscribe>span {
+        margin-left: 0px;
+    }
+    
+}
+
+@media (max-width: 1784px) {
+
+	#logo {
+		float: left;
+		width: 25%;
+	}
+
+	#menu {
+		float: left;
+		width: 27%;
+	}
+
+	#search {
+		float: left;
+        width: 23%;
+        margin-right: 6%;
+	}
+
+    #reg_auth {
+        float: left;
+        width: 19%; 
+    }
+    
+    #news {
+	float: left;
+    width: 100%;
+    margin-left: 4%;
+    }
+}
+    
+
+
+@media (max-width: 1770px) {
+
+	#logo {
+		float: left;
+		width: 26%;
+	}
+
+	#menu {
+		float: left;
+		width: 27%;
+	}
+
+	#search {
+		float: left;
+        width: 20%;
+        margin-right: 6%;
+	}
+
+    #reg_auth {
+        float: left;
+        width: 19%; 
+    }
+    
+    #subscribe>span {
+        margin-left: 0px;
+    }
+    
+    #news {
+	float: left;
+    width: 100%;
+    margin-left: 3%;
+    }
+    
+}
+
+@media (max-width: 1684px) {
+
+    
+    #news {
+	float: left;
+    width: 100%;
+    margin-left: 2%;
+    }
+    
+}
+
+@media (max-width: 1691px) {
+
+	#logo {
+		float: left;
+		width: 26%;
+	}
+
+	#menu {
+		float: left;
+		width: 27%;
+	}
+
+	#search {
+		float: left;
+        width: 19%;
+        margin-right: 7%;
+	}
+
+    #reg_auth {
+        float: left;
+        width: 20%; 
+    }
+    
+    
+}
+
+@media (max-width: 1685px) {
+
+	#logo {
+		float: left;
+		width: 27%;
+	}
+
+	#menu {
+		float: left;
+		width: 28%;
+	}
+
+	#search {
+		float: left;
+        width: 18%;
+        margin-right: 7%;
+	}
+
+    #reg_auth {
+        float: left;
+        width: 20%; 
+    }
+    
+    
+    .dws-wrapper {
+	float: left;
+	width: 500px;
+    margin-left: 250px;
+}
+
+

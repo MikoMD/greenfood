@@ -1,0 +1,94 @@
+.dws_wrpr2 {
+	float: left;
+	width: 230px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container_pr2 img {
+    width: 200px;
+    height: 166px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.container_pr2 {
+    float: left;
+    background-color: white;
+    width: 230px;
+    height: 480px;
+    position: relative;
+    opacity: 1;
+    border: 1px solid silver;
+    padding-top: 20px;
+}
+
+.text_pr2 {
+	height: 46%;
+	margin: 0 15px 0 15px;
+	margin-top: 191px;
+	position: relative;
+	font-family:'Open Sans', sans-serif;
+	color: #333333;
+	transition: 0.2s;
+    text-align: center;
+}
+
+.text_pr2 > p {
+    font-size: 0.75em;
+    color: dimgray;
+    text-align: left;
+}
+
+.text_pr2 > span {
+    font-size: 1.2em;
+    color: black;
+    font-family: "Lintel Italic";
+}
+
+.container_pr2 > .btn {
+	float: left;
+	margin: 0;
+    margin-left: 22%;
+}
+
+.container_pr2:hover {
+	transition: .15s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container_pr2:hover img {
+    width: 205px;
+    height: 171px;
+    margin-left: 12.5px;
+}
+
+#pages {
+    float: left;
+    margin-left: 9.5%;
+    position: relative;
+}
+
+#p_number{
+    float: left;
+}
+
+#p_number > a {
+    float: left;
+    padding: 10px 15px;
+    display: block;
+    border: 1px solid silver;
+    border-radius: 2px;
+    margin-right: 10px;
+    color: black;
+}
+
+#p_number > a:hover {
+    background-color: darkgray;
+}
+
+#recipes {
+    float: left;
+    position: relative;
+    padding-left: 7.5%;
+}
